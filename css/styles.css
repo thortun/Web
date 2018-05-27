@@ -1,0 +1,36 @@
+<style>
+    .p1{
+        color: red;
+        padding: 10px 20px;
+    }
+    button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    button:hover{ 
+        background-color: green;
+    }
+    a.linkButton:link, a.linkButton:visited{
+        background-color: #4CAF50; /* Background color is this, green */
+        color: white;              /* Text color is white */
+        text-align: center;        /* Align text to center */
+        display: block;            /* Display as block */
+        font-family: "Arial";      /* Use Arial */
+        text-decoration: none;     /* No underline on text */
+        height: 100px              /* Set fixed height */
+        
+    }
+    a.linkButton:hover, a.linkButton:active{
+        background-color: green;
+    }
+    .buttonLink{
+
+    }
+</style>
